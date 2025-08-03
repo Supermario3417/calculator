@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="title">3417 Calculator</div>
+    <link rel="stylesheet" href="css/Calculator.css">
+    <link rel="shortcut icon" href="./img/3417.ico" type="image/x-icon" />
+    <table class="calculatorTable" border="0">
+        <tr>
+            <td colspan="3"><input type="text" id="result" class="resultBox"></td>
+            <td><button onclick="clr()" class="inputButton">C</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display('1')" class="inputButton">1</button></td>
+            <td><button onclick="display('2')" class="inputButton">2</button></td>
+            <td><button onclick="display('3')" class="inputButton">3</button></td>
+            <td><button onclick="display('/')" class="inputButton">/</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display('4')" class="inputButton">4</button></td>
+            <td><button onclick="display('5')" class="inputButton">5</button></td>
+            <td><button onclick="display('6')" class="inputButton">6</button></td>
+            <td><button onclick="display('-')" class="inputButton">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display('7')" class="inputButton">7</button></td>
+            <td><button onclick="display('8')" class="inputButton">8</button></td>
+            <td><button onclick="display('9')" class="inputButton">9</button></td>
+            <td><button onclick="display('+')" class="inputButton">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="display('.')" class="inputButton">.</button></td>
+            <td><button onclick="display('0')" class="inputButton">0</button></td>
+            <td><button onclick="equate('=')" class="inputButton">=</button></td>
+            <td><button onclick="display('*')" class="inputButton">*</button></td>
+        </tr>
+    </table>
+    <a href="https://supermario3417.github.io/portfolio/">
+        <img src="img/3417-Logo.png" alt="3417 Logo" class="logoImage">
+    </a>
+    <script src="js/Calculator.js"></script>
+</body>
+</html>
