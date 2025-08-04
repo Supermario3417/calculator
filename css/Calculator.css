@@ -47,3 +47,10 @@ button:active {
     bottom: 5px;
     left: 5px;
 }
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: yellow;
+}

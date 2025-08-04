@@ -1,15 +1,21 @@
 function clr() {
     document.getElementById("result").value="";
+    let audio = new Audio('./audio/click.wav');
+    audio.play();
 }
 
 function display(inputValue) {
     document.getElementById("result").value+=inputValue;
+    let audio = new Audio('./audio/click.wav');
+    audio.play();
 }
 
 function equate() {
     var x = document.getElementById("result").value;
     var y = eval(x);
     document.getElementById("result").value = y;
+    let audio = new Audio('./audio/click.wav');
+    audio.play();
 }
 
 document.addEventListener('keydown', (event) => {
